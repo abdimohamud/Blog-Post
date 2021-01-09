@@ -48,8 +48,7 @@
   .page-subtitle,
   .post-subtitle,
   .post-meta,
-  .pagination .page-number
-  .block-subtitle,
+  .pagination .page-number .block-subtitle,
   .testimonial-author {
     color: _palette(charcoal-light-25);
   }
@@ -57,33 +56,33 @@
   ::-webkit-input-placeholder {
     color: _palette(charcoal-light-25);
   }
-  
+
   ::-moz-placeholder {
     color: _palette(charcoal-light-25);
     opacity: 1;
   }
-  
+
   :-ms-input-placeholder {
     color: _palette(charcoal-light-25);
   }
-  
+
   ::-ms-input-placeholder {
     color: _palette(charcoal-light-25);
   }
-  
+
   ::placeholder {
     color: _palette(charcoal-light-25);
   }
 
   @media only screen and (max-width: 800px) {
     .site-header:after {
-      background: rgba(_palette(charcoal-dark-15),.6);
+      background: rgba(_palette(charcoal-dark-15), 0.6);
     }
-  
+
     .site-navigation {
-      background:_palette(charcoal);
+      background: _palette(charcoal);
     }
-  
+
     .menu-item,
     .menu-item:not(.menu-button):last-child {
       border-color: _palette(charcoal-light-7);

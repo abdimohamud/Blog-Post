@@ -1,75 +1,74 @@
-import React from 'react';
-import {Switch, Link, Route} from 'react-router-dom'
-import Header from './components/Header'
-import Footer from './components/Footer'
+import React from "react";
+import { Switch, Link, Route } from "react-router-dom";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
-import LandingPage from './components/pages/LandingPage'
-import OverviewPage from './components/pages/OverviewPage'
-import AboutPage from './components/pages/AboutPage'
-import ContactPage from './components/pages/ContactPage'
-import BlogPage from './components/pages/BlogPage';
+import LandingPage from "./components/pages/LandingPage";
+import OverviewPage from "./components/pages/OverviewPage";
+import AboutPage from "./components/pages/AboutPage";
+import ContactPage from "./components/pages/ContactPage";
+import BlogPage from "./components/pages/BlogPage";
 
-import Blockers from './components/pages/Overview/Blockers'
-import ArtDesign from './components/pages/Overview/ArtDesign'
-import Contributions from './components/pages/Overview/Contributions'
-import FamilyPromise from './components/pages/Overview/FamilyPromise'
-import Product from './components/pages/Overview/Product'
-import ProductRoadMap from './components/pages/Overview/ProductRoadMap'
-import UserFlow from './components/pages/Overview/UserFlow'
-import LabsReflection from './components/pages/Blog/LabsReflection';
-import './App.css';
-
+import Blockers from "./components/pages/Overview/Blockers";
+import ArtDesign from "./components/pages/Overview/ArtDesign";
+import Contributions from "./components/pages/Overview/Contributions";
+import FamilyPromise from "./components/pages/Overview/FamilyPromise";
+import Product from "./components/pages/Overview/Product";
+import ProductRoadMap from "./components/pages/Overview/ProductRoadMap";
+import UserFlow from "./components/pages/Overview/UserFlow";
+import LabsReflection from "./components/pages/Blog/LabsReflection";
+import "./App.css";
 
 function App() {
   return (
-      <>
-      <Header/>
+    <>
+      <Header />
       <Switch>
-      <Route path="/overview/blockers">
-          <Blockers/>
+        <Route path="/overview/blockers">
+          <Blockers />
         </Route>
         <Route path="/overview/userflow">
-          <UserFlow/>
+          <UserFlow />
         </Route>
         <Route path="/overview/art-design">
-          <ArtDesign/>
+          <ArtDesign />
         </Route>
         <Route path="/overview/contributions">
-          <Contributions/>
+          <Contributions />
         </Route>
         <Route path="/overview/family-promise">
-          <FamilyPromise/>
+          <FamilyPromise />
         </Route>
         <Route path="/overview/product">
-          <Product/>
+          <Product />
         </Route>
         <Route path="/overview/product-roadmap">
-          <ProductRoadMap/>
+          <ProductRoadMap />
         </Route>
         <Route path="/overview/userflow">
-          <UserFlow/>
+          <UserFlow />
         </Route>
         <Route path="/overview">
-          <OverviewPage/>
+          <OverviewPage />
         </Route>
         <Route path="/blog/labs-reflection">
-          <LabsReflection/>
+          <LabsReflection />
         </Route>
         <Route path="/blog">
-          <BlogPage/>
+          <BlogPage />
         </Route>
         <Route path="/contact">
-          <ContactPage/>
+          <ContactPage />
         </Route>
         <Route path="/about">
-          <AboutPage/>
+          <AboutPage />
         </Route>
         <Route exact path="/">
-        <LandingPage/>
+          <LandingPage />
         </Route>
       </Switch>
-      <Footer/>
-      </>
+      <Footer />
+    </>
   );
 }
 

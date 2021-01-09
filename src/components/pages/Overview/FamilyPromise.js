@@ -74,4 +74,3 @@ const FamilyPromise = () => {
 };
 
 export default FamilyPromise;
-
