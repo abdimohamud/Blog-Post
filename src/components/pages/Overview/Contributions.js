@@ -1,5 +1,5 @@
 import React from "react";
-import PullRequestTemplate from "./PullRequestTemplate";
+// import PullRequestTemplate from "./PullRequestTemplate";
 import roadblock from "../../../assets/roadblock.png";
 const Contributions = () => {
   return (

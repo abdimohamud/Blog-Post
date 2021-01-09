@@ -1,5 +1,5 @@
 import React from "react";
-import _ from "lodash";
+
 
 const Footer = () => {
   return (
@@ -12,7 +12,7 @@ const Footer = () => {
               href="https://twitter.com/nopocketchange"
               class="button-icon"
               target="_blank"
-              rel="noopener"
+              rel="noreferrer"
             >
               <span class="icon fab fa-twitter" aria-hidden="true"></span>
               <span class="screen-reader-text">Twitter</span>
@@ -21,7 +21,7 @@ const Footer = () => {
               href="https://github.com/abdimohamud"
               class="button-icon"
               target="_blank"
-              rel="noopener"
+              rel="noreferrer"
             >
               <span class="icon fab fa-github" aria-hidden="true"></span>
               <span class="screen-reader-text">Dribbble</span>
@@ -30,7 +30,7 @@ const Footer = () => {
               href="https://www.linkedin.com/in/abdinajib-mohamud/"
               class="button-icon"
               target="_blank"
-              rel="noopener"
+              rel="noreferrer"
             >
               <span class="icon fab fa-linkedin" aria-hidden="true"></span>
               <span class="screen-reader-text">LinkedIn</span>
