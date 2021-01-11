@@ -1,5 +1,5 @@
 import React from "react";
-import FeatureList from './FeatureList'
+// import FeatureList from './FeatureList'
 import roadmap from "../../../assets/roadmap.png";
 
 const ProductRoadMap = () => {
