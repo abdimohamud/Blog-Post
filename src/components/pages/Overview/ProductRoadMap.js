@@ -1,5 +1,5 @@
 import React from "react";
-// import FeatureList from './FeatureList'
+import featureList from "../../../assets/featurelist.JPG";
 import roadmap from "../../../assets/roadmap.png";
 
 const ProductRoadMap = () => {
@@ -15,14 +15,14 @@ const ProductRoadMap = () => {
             <div class="post-image">
               <img src={roadmap} alt="Product Road Map" />
             </div>
-            {/* <>
-            <FeatureList/>
-            </> */}
-            <div style={{display:'flex', justifyContent:'center'}}>
-            <a class="button" href="/overview/art-design">
-            <bold>&rArr;</bold> Architectural Design
-            </a>
-          </div>
+            <div class="post-image">
+              <img src={featureList} alt="feature list" />
+            </div>
+            <div style={{ display: "flex", justifyContent: "center" }}>
+              <a class="button" href="/overview/art-design">
+                <bold>&rArr;</bold> Architectural Design
+              </a>
+            </div>
           </article>
         </div>
       </main>

@@ -10,14 +10,14 @@ const Header = () => {
         <div class="site-header-inside">
           <div class="site-branding">
             <p class="site-logo">
-              <Link aria-current="page" class="" href="/">
+              <Link aria-current="page" class="" to="/">
                 <img src={avi} alt="avi" />
               </Link>
             </p>
           </div>
           <button id="menu-open" class="menu-toggle">
             <span class="screen-reader-text">Close Menu</span>
-            <span class="icon-menu" aria-hidden="true"></span>
+            <span class="icon-menu" aria-hidden="true" />
           </button>
           <nav
             id="main-navigation"
@@ -27,7 +27,7 @@ const Header = () => {
             <div class="site-nav-inside">
               <button id="menu-close" class="menu-toggle">
                 <span class="screen-reader-text">Open Menu</span>
-                <span class="icon-close" aria-hidden="true"></span>
+                <span class="icon-close" aria-hidden="true" />
               </button>
               <ul class="menu">
                 <li class="menu-item current-menu-item">

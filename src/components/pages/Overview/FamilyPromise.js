@@ -41,17 +41,29 @@ const FamilyPromise = () => {
                 </p>
               </blockquote>
               <p>
-              The shelter currently has a paper intake system, so the head of household needs to fill out around 30 pages of questions.
-              Supervisors at the shelter are meeting guests that they serve on the worst day of the guest's lives. On top of becoming homeless and having nobody to stay with, the guests are required to manually fill out 20 to 30 pages of forms in order to be admitted into the shelter. Parents must keep their children in line of sight at all times, so a new guest needs to fill out this paper work and keep track of their children at the same time.
+                The shelter currently has a paper intake system, so the head of
+                household needs to fill out around 30 pages of questions.
+                Supervisors at the shelter are meeting guests that they serve on
+                the worst day of the guest's lives. On top of becoming homeless
+                and having nobody to stay with, the guests are required to
+                manually fill out 20 to 30 pages of forms in order to be
+                admitted into the shelter. Parents must keep their children in
+                line of sight at all times, so a new guest needs to fill out
+                this paper work and keep track of their children at the same
+                time.
               </p>
               <p>
-              Family Promise strives to show compassion on newly homeless families and transition them in the smoothest way possible, which is why they needed our team to find a solution to this problem and provide timely vital information in an efficient way to the staff that help homeless families.
+                Family Promise strives to show compassion on newly homeless
+                families and transition them in the smoothest way possible,
+                which is why they needed our team to find a solution to this
+                problem and provide timely vital information in an efficient way
+                to the staff that help homeless families.
               </p>
-              <div style={{display:'flex', justifyContent:'center'}}>
-            <a class="button" href="/overview/product">
-            <bold>&rArr;</bold> Product: Digital Intake Form
-            </a>
-          </div>
+              <div style={{ display: "flex", justifyContent: "center" }}>
+                <a class="button" href="/overview/product">
+                  <bold>&rArr;</bold> Product: Digital Intake Form
+                </a>
+              </div>
             </div>
           </article>
         </div>

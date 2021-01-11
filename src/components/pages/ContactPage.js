@@ -46,7 +46,7 @@ const ContactPage = () => {
                     placeholder="Your name"
                     required=""
                   />
-                  <span class="animate-border" aria-hidden="true"></span>
+                  <span class="animate-border" aria-hidden="true" />
                 </div>
                 <div class="form-group">
                   <label for="email">Email</label>
@@ -57,7 +57,7 @@ const ContactPage = () => {
                     placeholder="Your email address"
                     required=""
                   />
-                  <span class="animate-border" aria-hidden="true"></span>
+                  <span class="animate-border" aria-hidden="true" />
                 </div>
                 <div class="form-group">
                   <label for="subject">Subject</label>
@@ -79,8 +79,8 @@ const ContactPage = () => {
                     id="message"
                     rows="5"
                     placeholder="Your message"
-                  ></textarea>
-                  <span class="animate-border" aria-hidden="true"></span>
+                  />
+                  <span class="animate-border" aria-hidden="true" />
                 </div>
                 <div class="form-group form-checkbox">
                   <input type="checkbox" id="consent" name="consent" />

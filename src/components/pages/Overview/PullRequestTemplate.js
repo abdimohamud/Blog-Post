@@ -3,7 +3,6 @@ import React from "react";
 const PullRequestTemplate = () => {
   return (
     <>
-      {/* <link rel="stylesheet" href="https://stackedit.io/style.css" /> */}
       <body class="stackedit">
         <div class="stackedit__html">
           <h1 id="pr-description">PR Description</h1>

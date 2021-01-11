@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import fsplogo from "../../assets/fsp-logo.jpg";
 import intake from "../../assets/intake.png";
 import roadblock from "../../assets/roadblock.png";
+import contribute from "../../assets/contribute.jpg";
 import roadmap from "../../assets/roadmap.png";
 import techstack from "../../assets/techstack.png";
 import userflow from "../../assets/userflow.png";
@@ -82,9 +83,9 @@ const OverviewPage = () => {
             </article>
             <article class="project">
               <Link to="/overview/contributions">
-                <span class="project-link" >
+                <span class="project-link">
                   <div class="project-thumbnail">
-                    <img src={roadblock} alt="Contributions" />
+                    <img src={contribute} alt="Contributions" />
                   </div>
                   <header class="project-header">
                     <h2 class="project-title">Contributions</h2>

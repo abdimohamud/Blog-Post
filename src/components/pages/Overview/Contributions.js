@@ -1,7 +1,20 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 // import PullRequestTemplate from "./PullRequestTemplate";
-import roadblock from "../../../assets/roadblock.png";
+import marked from "marked";
+import readMe from "../../../assets/prRequest.md";
+import roadblock from "../../../assets/contribute.jpg";
+
 const Contributions = () => {
+  const [markdown, setMarkdown] = useState(null);
+  useEffect(() => {
+    fetch(readMe)
+      .then(response => {
+        return response.text();
+      })
+      .then(text => {
+        setMarkdown(marked(text));
+      });
+  }, []);
   return (
     <>
       <main id="content" class="site-content">
@@ -15,12 +28,12 @@ const Contributions = () => {
               <img src={roadblock} alt="Contributions" />
             </div>
             <div class="post-content inner-sm">
-            <iframe src="https://codesandbox.io/embed/intake-form-maonsfduiif-3mjet?fontsize=14&hidenavigation=1&theme=dark&view=preview"
+              {/* <iframe src="https://codesandbox.io/embed/intake-form-maonsfduiif-3mjet?fontsize=14&hidenavigation=1&theme=dark&view=preview"
      style={{width:"100%", height:"500px", border:"0", borderRadius:" 4px", overflow:"hidden"}}
      title="intake form MAonsfduiif"
      allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
      sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
-   ></iframe>
+   ></iframe> */}
               <blockquote>
                 <p>
                   "Design can be art. Design can be aesthetics. Design is so
@@ -70,7 +83,21 @@ const Contributions = () => {
                 ullamcorper. Turpis cursus in hac habitasse. Adipiscing elit
                 pellentesque habitant morbi tristique.
               </p>
-              {/* <PullRequestTemplate /> */}
+              {markdown ? (
+                <section style={{ border: "1px solid" }}>
+                  <article dangerouslySetInnerHTML={{ __html: markdown }} />
+                </section>
+              ) : (
+                ""
+              )}
+              <br />
+              <br />
+              <br />
+              <div style={{ display: "flex", justifyContent: "center" }}>
+                <a class="button" href="/overview/blockers">
+                  <bold>&rArr;</bold> Blockers and Challenges
+                </a>
+              </div>
             </div>
           </article>
         </div>

@@ -15,11 +15,21 @@ const ArtDesign = () => {
           </div>
           <div class="post-content inner-sm">
             <p>
-             
-We wanted to be able to have an idea of how the application of the intake form would be from a technlogy standpoint, so we made a layout of the app connecting all the frameworks we needed in order to get a better understanding of how the functionality would look like. Overall, we decided as team to stick to stick to using engineering standards provided by our stakeholder and also stray away from using third party libraries that weren't verified in the event that a error or bug would appear in production.
+              We wanted to be able to have an idea of how the application of the
+              intake form would be from a technlogy standpoint, so we made a
+              layout of the app connecting all the frameworks we needed in order
+              to get a better understanding of how the functionality would look
+              like. Overall, we decided as team to stick to stick to using
+              engineering standards provided by our stakeholder and also stray
+              away from using third party libraries that weren't verified in the
+              event that a error or bug would appear in production.
             </p>
             <p>
-           The front-end would consist of a react framework hosted by AWS Amplify, along with authenication being handled by Okta and securing any endpoints provided by our back-end. The back-end framework was going to be a Node Express application with PostgreSQL as our database and deployed via Heroku. 
+              The front-end would consist of a react framework hosted by AWS
+              Amplify, along with authenication being handled by Okta and
+              securing any endpoints provided by our back-end. The back-end
+              framework was going to be a Node Express application with
+              PostgreSQL as our database and deployed via Heroku.
             </p>
             {/* <blockquote>
               <p>
@@ -28,19 +38,16 @@ We wanted to be able to have an idea of how the application of the intake form w
               </p>
             </blockquote> */}
             <p>
-              Orci ac auctor augue mauris augue neque. Id semper risus in
-              hendrerit gravida rutrum quisque. Et leo duis ut diam quam nulla
-              porttitor massa. Condimentum vitae sapien pellentesque habitant
-              morbi. Vulputate odio ut enim blandit volutpat maecenas volutpat
-              blandit. Hendrerit dolor magna eget est lorem ipsum dolor sit.
-              Ipsum dolor sit amet consectetur. Eu augue ut lectus arcu bibendum
-              at. Etiam non quam lacus suspendisse. Leo integer malesuada nunc
-              vel. Consequat id porta nibh venenatis. Sollicitudin nibh sit amet
-              commodo nulla facilisi nullam. Aliquam sem fringilla ut morbi
-              tincidunt augue interdum velit euismod. Facilisis leo vel
-              fringilla est ullamcorper eget nulla facilisi etiam.
+              Data Science would be integrated in our application as they would
+              be using the data provided by a familiy when they filled out an
+              application. They would be receiving a POST request with the
+              member id from the intake form and using that id to query the
+              database, choose the features used to create the classification
+              model, predict the exit destination and returning a prediction for
+              the exit destination for a family along with the top features in
+              JSON format.
             </p>
-            <p>Final Web Tech Stack</p>
+            <h3>Final Web Tech Stack</h3>
             <p>Styling</p>
             <ul>
               <li>ANT Design</li>
@@ -48,31 +55,27 @@ We wanted to be able to have an idea of how the application of the intake form w
             <p>State Management</p>
             <ul>
               <li>Redux</li>
-              <li>
-                Redux hooks (useDispatch, useSelector)
-            </li>
+              <li>Redux hooks (useDispatch, useSelector)</li>
             </ul>
 
-               <p>Data Request</p> 
-              <ul>
-              <li>
-                axios
-                </li>
-                </ul>
-                <p>Routing</p>
-              <ul>
+            <p>Data Request</p>
+            <ul>
+              <li>axios</li>
+            </ul>
+            <p>Routing</p>
+            <ul>
               <li>React Router-Protected Routes based on role</li>
-              <li>
-                Authenicated Routes
-                </li>
-                </ul>
-                
-                <p>Testing Libraries</p>
-              <ul>
+              <li>Authenicated Routes</li>
+            </ul>
+
+            <p>Testing Libraries</p>
+            <ul>
               <li>Backend = Jest SuperTest</li>
               <li>Frontend = React Testing Libr/ary</li>
             </ul>
-            <p>Data Science Tech Stack</p>
+            <br />
+            <h3>Data Science Tech Stack</h3>
+            <br />
             <p>Data and Services</p>
             <ul>
               <li>AWS Elastic Beanstalk</li>
@@ -87,9 +90,9 @@ We wanted to be able to have an idea of how the application of the intake form w
               <li>pandas-pr</li>
             </ul>
           </div>
-          <div style={{display:'flex', justifyContent:'center'}}>
+          <div style={{ display: "flex", justifyContent: "center" }}>
             <a class="button" href="/overview/userflow">
-            <bold>&rArr;</bold> User Flow
+              <bold>&rArr;</bold> User Flow
             </a>
           </div>
         </article>

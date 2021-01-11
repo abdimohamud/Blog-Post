@@ -8,7 +8,7 @@ import userflow from "../../assets/userflow.png";
 import books from "../../assets/books.jpg";
 import isaiah from "../../assets/isaiah.png";
 import leslie from "../../assets/leslie.png";
-import emily from "../../assets/leslie.png";
+import emily from "../../assets/emily.jpg";
 
 const LandingPage = () => {
   return (
@@ -16,10 +16,12 @@ const LandingPage = () => {
       <section id="hero" class="block block-hero outer">
         <div class="inner">
           <div class="block-header inner-sm">
-            <h1 class="block-title">Labs Experience</h1>
+            <h1 class="block-title" style={{ textAlign: "center" }}>
+              Labs Experience
+            </h1>
           </div>
           <div class="block-content inner-sm">
-            <p>
+            <p style={{ textAlign: "center" }}>
               Hi there! Welcome to my blog! My name is Abdinajib Mohamud. I am a
               Full Stack Web Developer currently living in the Pacific
               Northwest. This site is my public blog jounral where I recap aloud
@@ -28,7 +30,10 @@ const LandingPage = () => {
               for a stakeholder.{" "}
             </p>
           </div>
-          <div class="block-buttons inner-sm">
+          <div
+            class="block-buttons inner-sm"
+            style={{ display: "flex", justifyContent: "center" }}
+          >
             <a class="button" href="/contact">
               Let's talk
             </a>
@@ -38,7 +43,14 @@ const LandingPage = () => {
 
       <section id="latest-projects" class="block-portfolio block outer">
         <div class="inner">
-          <div class="block-header inner-sm">
+          <div
+            class="block-header inner-sm"
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center"
+            }}
+          >
             <h2 class="block-title line-top">Overview of Project</h2>
             <p class="block-subtitle">An optional subtitle of the section</p>
           </div>
@@ -98,7 +110,7 @@ const LandingPage = () => {
               </article>
               <article class="project">
                 <a class="project-link view-all-link" href="/overview">
-                <div class="project-thumbnail">
+                  <div class="project-thumbnail">
                     <img src={roadblock} alt="Contributions" />
                   </div>
                   <span class="view-all-button">View All</span>
@@ -110,7 +122,14 @@ const LandingPage = () => {
       </section>
       <section id="testimonials" class="block block-testimonials outer">
         <div class="inner">
-          <div class="block-header inner-sm">
+          <div
+            class="block-header inner-sm"
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center"
+            }}
+          >
             <h2 class="block-title line-top">Feedback from Team Members</h2>
             <p class="block-subtitle">An optional subtitle of the section</p>
           </div>
@@ -185,7 +204,14 @@ const LandingPage = () => {
 
       <section id="latest-posts" class="block block-posts outer">
         <div class="inner">
-          <div class="block-header inner-sm">
+          <div
+            class="block-header inner-sm"
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center"
+            }}
+          >
             <h2 class="block-title line-top">Latest from the Blog</h2>
             <p class="block-subtitle">An optional subtitle of the section</p>
           </div>
@@ -217,7 +243,10 @@ const LandingPage = () => {
               </article>
             </div>
           </div>
-          <div class="block-buttons inner-sm">
+          <div
+            class="block-buttons inner-sm"
+            style={{ display: "flex", justifyContent: "center" }}
+          >
             <a class="button" href="/blog">
               View Blog
             </a>

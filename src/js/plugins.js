@@ -5,13 +5,13 @@ reframe.js - Reframe.js: responsive iframes for embedded content
 @author Jeff Wainwright <jjwainwright2@gmail.com> (http://jeffry.in)
 @license MIT
 */
-!(function (e, t) {
+!(function(e, t) {
   "object" == typeof exports && "undefined" != typeof module
     ? (module.exports = t())
     : "function" == typeof define && define.amd
     ? define(t)
     : (e.reframe = t());
-})(this, function () {
+})(this, function() {
   "use strict";
   function e(e, t) {
     var i = "string" == typeof e ? document.querySelectorAll(e) : e,

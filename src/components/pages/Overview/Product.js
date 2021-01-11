@@ -9,7 +9,9 @@ const Product = () => {
           <article class="post post-full">
             <header class="post-header inner-sm">
               <h1 class="post-title line-top">Product: Digital Intake Form</h1>
-              <div class="post-subtitle">Replacing a paper intake system with a digital intake system</div>
+              <div class="post-subtitle">
+                Replacing a paper intake system with a digital intake system
+              </div>
             </header>
             <div class="post-image">
               <img src={intake} alt="Product: Digital Intake Form" />
@@ -83,11 +85,11 @@ const Product = () => {
                   kind.
                 </li>
               </ul>
-              <div style={{display:'flex', justifyContent:'center'}}>
-            <a class="button" href="/overview/product-roadmap">
-            <bold>&rArr;</bold> Product Road Map
-            </a>
-          </div>
+              <div style={{ display: "flex", justifyContent: "center" }}>
+                <a class="button" href="/overview/product-roadmap">
+                  <bold>&rArr;</bold> Product Road Map
+                </a>
+              </div>
             </div>
           </article>
         </div>

@@ -1,4 +1,4 @@
-window.onGatsbyRouteUpdate = function () {
+window.onGatsbyRouteUpdate = function() {
   /**
    * Main JS file for theme behaviours
    */
@@ -13,7 +13,7 @@ window.onGatsbyRouteUpdate = function () {
     for (var i = 0; i < menuToggle.length; i++) {
       menuToggle[i].addEventListener(
         "click",
-        function (e) {
+        function(e) {
           document.body.classList.toggle("menu--opened");
           e.preventDefault();
         },
@@ -25,7 +25,7 @@ window.onGatsbyRouteUpdate = function () {
 
     window.addEventListener(
       "resize",
-      function () {
+      function() {
         if (menuToggle[0].offsetParent === null) {
           document.body.classList.remove("menu--opened");
         }
