@@ -15,6 +15,7 @@ const UserFlow = () => {
               <img src={userflow} alt="User Flow" />
             </div>
             <div class="post-content inner-sm">
+              <p>In order to undestand how this application would work, we had to look it in a different prespective. It would help us in the long run considering the fact that this product relied heavily on user experience and needed to be easy to use for even a guest to fill out their own form.</p>
               <p>
                 User Roles: Each user should have one associated role
                 determining which features are available to them. Flows should

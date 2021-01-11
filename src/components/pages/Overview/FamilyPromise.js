@@ -41,30 +41,17 @@ const FamilyPromise = () => {
                 </p>
               </blockquote>
               <p>
-                Amet nibh adipiscing adipiscing. Commodo ante vis placerat
-                interdum massa massa primis. Tempus condimentum tempus non ac
-                varius cubilia adipiscing placerat lorem turpis at. Aliquet
-                lorem porttitor interdum. Amet lacus. Aliquam lobortis faucibus
-                blandit ac phasellus. In amet magna non interdum volutpat
-                porttitor metus a ante ac neque. Nisi turpis. Commodo col.
-                Interdum adipiscing mollis ut aliquam id ante adipiscing commodo
-                integer arcu amet Ac interdum ac non praesent. Cubilia lacinia
-                interdum massa faucibus blandit nullam. Accumsan phasellus nunc
-                integer. Accumsan euismod nunc adipiscing lacinia erat ut sit.
-                Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan
-                commodo odio cubilia ac eu interdum placerat placerat arcu
-                commodo lobortis adipiscing semper ornare pellentesque.
+              The shelter currently has a paper intake system, so the head of household needs to fill out around 30 pages of questions.
+              Supervisors at the shelter are meeting guests that they serve on the worst day of the guest's lives. On top of becoming homeless and having nobody to stay with, the guests are required to manually fill out 20 to 30 pages of forms in order to be admitted into the shelter. Parents must keep their children in line of sight at all times, so a new guest needs to fill out this paper work and keep track of their children at the same time.
               </p>
               <p>
-                Amet nibh adipiscing adipiscing. Commodo ante vis placerat
-                interdum massa massa primis. Tempus condimentum tempus non ac
-                varius cubilia adipiscing placerat lorem turpis at. Aliquet
-                lorem porttitor interdum. Amet lacus. Aliquam lobortis faucibus
-                blandit ac phasellus. In amet magna non interdum volutpat
-                porttitor metus a ante ac neque. Nisi turpis. Commodo col.
-                Interdum adipiscing mollis ut aliquam id ante adipiscing commodo
-                integer arcu amet blandit adipiscing arcu ante.
+              Family Promise strives to show compassion on newly homeless families and transition them in the smoothest way possible, which is why they needed our team to find a solution to this problem and provide timely vital information in an efficient way to the staff that help homeless families.
               </p>
+              <div style={{display:'flex', justifyContent:'center'}}>
+            <a class="button" href="/overview/product">
+            <bold>&rArr;</bold> Product: Digital Intake Form
+            </a>
+          </div>
             </div>
           </article>
         </div>

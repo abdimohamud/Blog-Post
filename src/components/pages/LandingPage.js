@@ -45,7 +45,7 @@ const LandingPage = () => {
           <div class="block-content">
             <div class="portfolio-feed layout-tiles">
               <article class="project">
-                <a class="project-link" href="/portfolio/project-1/">
+                <a class="project-link" href="/overview/family-promise">
                   <div class="project-thumbnail">
                     <img src={fsplogo} alt="Family Promise Homeless Shelter" />
                   </div>
@@ -57,7 +57,7 @@ const LandingPage = () => {
                 </a>
               </article>
               <article class="project">
-                <a class="project-link" href="/portfolio/project-2/">
+                <a class="project-link" href="/overview/product">
                   <div class="project-thumbnail">
                     <img src={intake} alt="Product: Digital Intake Form" />
                   </div>
@@ -67,7 +67,7 @@ const LandingPage = () => {
                 </a>
               </article>
               <article class="project">
-                <a class="project-link" href="/portfolio/project-3/">
+                <a class="project-link" href="/overview/product-roadmap">
                   <div class="project-thumbnail">
                     <img src={roadmap} alt="Product Road Map" />
                   </div>
@@ -77,7 +77,7 @@ const LandingPage = () => {
                 </a>
               </article>
               <article class="project">
-                <a class="project-link" href="/portfolio/project-4/">
+                <a class="project-link" href="/overview/art-design">
                   <div class="project-thumbnail">
                     <img src={techstack} alt="Architectural Design" />
                   </div>
@@ -87,7 +87,7 @@ const LandingPage = () => {
                 </a>
               </article>
               <article class="project">
-                <a class="project-link" href="/portfolio/project-5/">
+                <a class="project-link" href="/overview/userflow">
                   <div class="project-thumbnail">
                     <img src={userflow} alt="User Flow" />
                   </div>
@@ -97,8 +97,8 @@ const LandingPage = () => {
                 </a>
               </article>
               <article class="project">
-                <a class="project-link view-all-link" href="/portfolio">
-                  <div class="project-thumbnail">
+                <a class="project-link view-all-link" href="/overview">
+                <div class="project-thumbnail">
                     <img src={roadblock} alt="Contributions" />
                   </div>
                   <span class="view-all-button">View All</span>

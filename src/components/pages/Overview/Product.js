@@ -9,23 +9,12 @@ const Product = () => {
           <article class="post post-full">
             <header class="post-header inner-sm">
               <h1 class="post-title line-top">Product: Digital Intake Form</h1>
-              <div class="post-subtitle">Optional Project Subtitle</div>
+              <div class="post-subtitle">Replacing a paper intake system with a digital intake system</div>
             </header>
             <div class="post-image">
               <img src={intake} alt="Product: Digital Intake Form" />
             </div>
             <div class="post-content inner-sm">
-              <p>
-                Family Promise helps local communities coordinate their
-                compassion to address the root causes of family homelessness.
-                They tap existing local resources to empower families towards
-                economic stability. Families come to them in crisis; they help
-                them rebuild their lives with new skills and ongoing support.{" "}
-              </p>
-              <p>
-                The shelter currently has a paper intake system, so the head of
-                household needs to fill out around 30 pages of questions.
-              </p>
               <p>
                 Family Promise needs a digital intake system to digitize the
                 intake process and allow supervisors, case managers, the
@@ -94,6 +83,11 @@ const Product = () => {
                   kind.
                 </li>
               </ul>
+              <div style={{display:'flex', justifyContent:'center'}}>
+            <a class="button" href="/overview/product-roadmap">
+            <bold>&rArr;</bold> Product Road Map
+            </a>
+          </div>
             </div>
           </article>
         </div>

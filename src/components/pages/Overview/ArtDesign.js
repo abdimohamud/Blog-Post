@@ -8,44 +8,25 @@ const ArtDesign = () => {
         <article class="post post-full">
           <header class="post-header inner-sm">
             <h1 class="post-title line-top">Architectural Design</h1>
-            <div class="post-subtitle">Optional Project Subtitle</div>
+            <div class="post-subtitle">Getting Technical with Designs </div>
           </header>
           <div class="post-image">
             <img src={techstack} alt="Architectural Design" />
           </div>
           <div class="post-content inner-sm">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Justo
-              eget magna fermentum iaculis eu non diam. Id volutpat lacus
-              laoreet non. Faucibus pulvinar elementum integer enim. Malesuada
-              fames ac turpis egestas integer eget aliquet nibh. Turpis massa
-              sed elementum tempus. Potenti nullam ac tortor vitae purus
-              faucibus. Duis ut diam quam nulla porttitor massa. Ultrices dui
-              sapien eget mi proin sed libero enim. Nibh venenatis cras sed
-              felis eget velit aliquet. Nec ullamcorper sit amet risus nullam.
-              Duis at tellus at urna. Pulvinar elementum integer enim neque.
-              Amet cursus sit amet dictum sit amet justo. Aliquam nulla facilisi
-              cras fermentum odio eu. Cursus in hac habitasse platea dictumst
-              quisque sagittis. Euismod nisi porta lorem mollis aliquam ut
-              porttitor leo.
+             
+We wanted to be able to have an idea of how the application of the intake form would be from a technlogy standpoint, so we made a layout of the app connecting all the frameworks we needed in order to get a better understanding of how the functionality would look like. Overall, we decided as team to stick to stick to using engineering standards provided by our stakeholder and also stray away from using third party libraries that weren't verified in the event that a error or bug would appear in production.
             </p>
             <p>
-              Eget nunc scelerisque viverra mauris in aliquam sem fringilla.
-              Ornare arcu dui vivamus arcu felis bibendum. Et molestie ac
-              feugiat sed lectus vestibulum mattis ullamcorper velit. Ut sem
-              nulla pharetra diam sit amet nisl suscipit. Fermentum leo vel orci
-              porta. Facilisis volutpat est velit egestas. Et pharetra pharetra
-              massa massa ultricies mi quis. Id aliquet risus feugiat in ante
-              metus dictum at tempor. Magna fermentum iaculis eu non diam
-              phasellus. Tellus cras adipiscing enim eu turpis egestas.
+           The front-end would consist of a react framework hosted by AWS Amplify, along with authenication being handled by Okta and securing any endpoints provided by our back-end. The back-end framework was going to be a Node Express application with PostgreSQL as our database and deployed via Heroku. 
             </p>
-            <blockquote>
+            {/* <blockquote>
               <p>
                 "Designers are meant to be loved, not to be understood." -
                 Margaret Oscar
               </p>
-            </blockquote>
+            </blockquote> */}
             <p>
               Orci ac auctor augue mauris augue neque. Id semper risus in
               hendrerit gravida rutrum quisque. Et leo duis ut diam quam nulla
@@ -69,20 +50,25 @@ const ArtDesign = () => {
               <li>Redux</li>
               <li>
                 Redux hooks (useDispatch, useSelector)
-                <br />
-                Data Request
-              </li>
+            </li>
+            </ul>
+
+               <p>Data Request</p> 
+              <ul>
               <li>
                 axios
-                <br />
-                Routing
-              </li>
+                </li>
+                </ul>
+                <p>Routing</p>
+              <ul>
               <li>React Router-Protected Routes based on role</li>
               <li>
                 Authenicated Routes
-                <br />
-                Testing Libr/aries
-              </li>
+                </li>
+                </ul>
+                
+                <p>Testing Libraries</p>
+              <ul>
               <li>Backend = Jest SuperTest</li>
               <li>Frontend = React Testing Libr/ary</li>
             </ul>
@@ -100,6 +86,11 @@ const ArtDesign = () => {
               <li>pandas</li>
               <li>pandas-pr</li>
             </ul>
+          </div>
+          <div style={{display:'flex', justifyContent:'center'}}>
+            <a class="button" href="/overview/userflow">
+            <bold>&rArr;</bold> User Flow
+            </a>
           </div>
         </article>
       </div>

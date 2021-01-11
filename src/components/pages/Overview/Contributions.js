@@ -15,21 +15,12 @@ const Contributions = () => {
               <img src={roadblock} alt="Contributions" />
             </div>
             <div class="post-content inner-sm">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Suspendisse faucibus interdum posuere lorem ipsum dolor.
-                Malesuada fames ac turpis egestas sed tempus urna et. Non odio
-                euismod lacinia at quis risus. Nisl vel pretium lectus quam id
-                leo in vitae turpis. Dolor sit amet consectetur adipiscing elit
-                ut. Id donec ultrices tincidunt arcu non sodales neque sodales
-                ut. Risus ultricies tristique nulla aliquet enim. Nulla aliquet
-                porttitor lacus luctus accumsan tortor posuere ac ut. Et leo
-                duis ut diam. Auctor neque vitae tempus quam pellentesque.
-                Scelerisque in dictum non consectetur a erat nam at. Quisque
-                sagittis purus sit amet volutpat consequat. Vulputate enim nulla
-                aliquet porttitor lacus.
-              </p>
+            <iframe src="https://codesandbox.io/embed/intake-form-maonsfduiif-3mjet?fontsize=14&hidenavigation=1&theme=dark&view=preview"
+     style={{width:"100%", height:"500px", border:"0", borderRadius:" 4px", overflow:"hidden"}}
+     title="intake form MAonsfduiif"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
               <blockquote>
                 <p>
                   "Design can be art. Design can be aesthetics. Design is so

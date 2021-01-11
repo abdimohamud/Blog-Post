@@ -15,10 +15,14 @@ const ProductRoadMap = () => {
             <div class="post-image">
               <img src={roadmap} alt="Product Road Map" />
             </div>
-            {/* <>
+            <>
             <FeatureList/>
-            </> */}
-
+            </>
+            <div style={{display:'flex', justifyContent:'center'}}>
+            <a class="button" href="/overview/art-design">
+            <bold>&rArr;</bold> Architectural Design
+            </a>
+          </div>
           </article>
         </div>
       </main>
