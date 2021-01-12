@@ -16,6 +16,7 @@ import FamilyPromise from "./components/pages/Overview/FamilyPromise";
 import Product from "./components/pages/Overview/Product";
 import ProductRoadMap from "./components/pages/Overview/ProductRoadMap";
 import UserFlow from "./components/pages/Overview/UserFlow";
+import FinalResult from './components/pages/Overview/FinalResult'
 import LabsReflection from "./components/pages/Blog/LabsReflection";
 import "./App.css";
 
@@ -24,6 +25,9 @@ function App() {
     <>
       <Header />
       <Switch>
+      <Route path="/overview/final-result">
+          <FinalResult />
+        </Route>
         <Route path="/overview/blockers">
           <Blockers />
         </Route>

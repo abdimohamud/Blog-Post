@@ -7,6 +7,7 @@ import contribute from "../../assets/contribute.jpg";
 import roadmap from "../../assets/roadmap.png";
 import techstack from "../../assets/techstack.png";
 import userflow from "../../assets/userflow.png";
+import paper from '../../assets/paper.png'
 const OverviewPage = () => {
   return (
     <>
@@ -101,6 +102,18 @@ const OverviewPage = () => {
                   </div>
                   <header class="project-header">
                     <h2 class="project-title">Blockers &amp; Challenges</h2>
+                  </header>
+                </span>
+              </Link>
+            </article>
+            <article class="project">
+              <Link to="/overview/final-result">
+                <span class="project-link">
+                  <div class="project-thumbnail">
+                    <img src={paper} alt="Final Result" />
+                  </div>
+                  <header class="project-header">
+                    <h2 class="project-title">Final Result</h2>
                   </header>
                 </span>
               </Link>
