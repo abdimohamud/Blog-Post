@@ -79,6 +79,11 @@ const Blockers = () => {
               </p>
             </div>
           </article>
+          <div style={{ display: "flex", justifyContent: "center" }}>
+                <a class="button" href="/overview/final-result">
+                  <bold>&rArr;</bold> Final Result
+                </a>
+              </div>
         </div>
       </main>
     </>
