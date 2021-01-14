@@ -35,47 +35,30 @@ const Contributions = () => {
                 </p>
               </blockquote>
               <p>
-                Nisl purus in mollis nunc sed id semper. Congue mauris rhoncus
-                aenean vel elit scelerisque mauris pellentesque. Etiam erat
-                velit scelerisque in dictum non consectetur. Tincidunt praesent
-                semper feugiat nibh sed pulvinar proin gravida hendrerit. Cursus
-                eget nunc scelerisque viverra mauris in aliquam sem. Aliquam id
-                diam maecenas ultricies mi eget mauris pharetra. Nisi quis
-                eleifend quam adipiscing vitae proin sagittis nisl. Elit at
-                imperdiet dui accumsan. Senectus et netus et malesuada fames ac
-                turpis. Justo nec ultrices dui sapien eget mi proin sed libero.
-                Aliquet eget sit amet tellus cras adipiscing enim eu turpis.
-                Nisl purus in mollis nunc sed id. Elit duis tristique
-                sollicitudin nibh sit. Duis ultricies lacus sed turpis.
-                Porttitor eget dolor morbi non. Scelerisque eu ultrices vitae
-                auctor eu augue ut. At urna condimentum mattis pellentesque id.
-                Massa eget egestas purus viverra accumsan. Fermentum dui
-                faucibus in ornare quam. Pharetra vel turpis nunc eget lorem.
+              As a team, it was up to us to decide how we want our workflow to go in completing, reviewing, and pushing our tasks to our main project. We decided to make a Pull request template to follow so that we would be able to explain the task we achieved and include resources or questions and challenges that came up during the process. 
+              {/* your Pull-Requests to look. Your goal for this afternoon is to create an MD file that you share across your team and include in your repositories (DS, WEB-FE, WEB-BE, iOS all need a copy of the template in their respective repository). */}
               </p>
               <p>
-                Sodales neque sodales ut etiam sit amet nisl. Sodales ut etiam
-                sit amet nisl purus. Nisi vitae suscipit tellus mauris a diam
-                maecenas sed. Egestas purus viverra accumsan in nisl nisi
-                scelerisque. Gravida cum sociis natoque penatibus et magnis dis
-                parturient. In hac habitasse platea dictumst vestibulum. Cras
-                semper auctor neque vitae tempus quam pellentesque nec nam.
-                Tellus integer feugiat scelerisque varius morbi enim nunc.
-                Ultricies mi eget mauris pharetra et ultrices neque ornare.
-                Vitae suscipit tellus mauris a diam. Commodo viverra maecenas
-                accumsan lacus vel. Libero id faucibus nisl tincidunt eget
-                nullam.
+                The criterias we set up for creating a pull request consisted of standards that most production-level projects followed in the industry which were:
               </p>
+              <ul>
+                <h5>Atomic, well-named commits</h5>
+                <li>Commits are well named.</li>
+                <li>Commits have descriptive messages.</li>
+                <li>Each commit introduces atomic changes.</li>
+                <br/>
+                <h5>Code maintainability</h5>
+                <li>Code is consistently formatted.</li>
+                <li>Has config files to enforce linting and formatting.</li>
+                <li>No instance on duplicate code.</li>
+                <br/>
+                <h5>Adequate reviews</h5>
+                <li>PRs were reviewed by more than one team members.</li>
+                <li>PR requests were sent to multiple reviewers.</li>
+                <li>Active high quality discussions evident in PRs.</li>
+              </ul>
               <p>
-                Nibh praesent tristique magna sit amet purus gravida. Aenean
-                pharetra magna ac placerat vestibulum lectus mauris. Nulla
-                aliquet enim tortor at auctor. Lobortis elementum nibh tellus
-                molestie. Vitae proin sagittis nisl rhoncus mattis. Velit
-                scelerisque in dictum non consectetur a erat. Elementum
-                curabitur vitae nunc sed. Nisl nisi scelerisque eu ultrices
-                vitae auctor eu. Proin libero nunc consequat interdum varius
-                sit. Molestie ac feugiat sed lectus vestibulum mattis
-                ullamcorper. Turpis cursus in hac habitasse. Adipiscing elit
-                pellentesque habitant morbi tristique.
+               We were able to create a template to use for pull requests and included it in our repository for future versions so that they would understand the flow of our contributions throughout the project.
               </p>
               {markdown ? (
                 <section style={{ border: "1px solid" }}>
