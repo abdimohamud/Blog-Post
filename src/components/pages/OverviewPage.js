@@ -16,7 +16,7 @@ const OverviewPage = () => {
           <header class="page-header inner-sm">
             <h1 class="page-title line-top">Project Overiew</h1>
             <p class="page-subtitle">
-              This is an optional subtitle for the portfolio page.
+              The journey from taking a problem and building a solution
             </p>
           </header>
           <div class="portfolio-feed layout-mosaic">

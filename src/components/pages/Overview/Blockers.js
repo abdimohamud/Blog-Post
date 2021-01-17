@@ -9,7 +9,7 @@ const Blockers = () => {
           <article class="post post-full">
             <header class="post-header inner-sm">
               <h1 class="post-title line-top">Blockers &amp; Challenges</h1>
-              <div class="post-subtitle">Optional Project Subtitle</div>
+              <div class="post-subtitle">Overcoming adversity in team environment</div>
             </header>
             <div class="post-image">
               <img src={roadblock} alt="Blockers &amp; Challenges" />

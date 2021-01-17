@@ -9,7 +9,7 @@ const FinalResult = () => {
             <article class="post post-full">
               <header class="post-header inner-sm">
                 <h1 class="post-title line-top">Final Result</h1>
-                <div class="post-subtitle">Optional Project Subtitle</div>
+                <div class="post-subtitle">Our Application in Production</div>
               </header>
               <div class="post-image">
                 <img src={paper} alt="Final Result" />
