@@ -16,66 +16,29 @@ const Blockers = () => {
             </div>
             <div class="post-content inner-sm">
               <p>
-                Wow, these two weeks have been exciting. We have a lot of work
-                ahead of us, but I feel like we’re making solid progress. I
-                spent much of the first work becoming more familiar with my
-                team, helping to decide on the stack for our project, and
-                researching the stack we decided on. Deciding on the stack was
-                the main challenge of the first week; it was difficult to agree
-                as a team on learning a completely new stack.
+              Many projects are structured to work in teams, and each team includes employees from different cultural backgrounds with different skills and talents. Teams that include members with a diverse personality and knowledge are better equipped to achieve more production and efficiency because they include creative members, organized members, and members that are somewhere in the middle. Although it may seem like a chaotic brew of personalities at times, the mixture of strengths and weaknesses helps avoid the problems of teams that all have the same personalities. For example, the labs team I am in includes people that are highly creative which at times may seem like more work and potential obstacles, but it's beneficial to hear more than one way of approaching a task or solution to a problem. To balance this, we also have members that prefer focusing functionality over features, which helps give a better perspective on the realistic outcome of a project even though it does not seem as unique at times.
               </p>
               <p>
-                Sed risus pretium quam vulputate dignissim suspendisse in est.
-                Vitae auctor eu augue ut lectus arcu. Tristique magna sit amet
-                purus. Aliquet enim tortor at auctor urna nunc. Id leo in vitae
-                turpis massa sed elementum tempus. Egestas maecenas pharetra
-                convallis posuere morbi leo urna molestie at. Amet consectetur
-                adipiscing elit duis tristique sollicitudin. Egestas sed sed
-                risus pretium quam vulputate. Nunc eget lorem dolor sed viverra
-                ipsum nunc. Consequat mauris nunc congue nisi vitae suscipit
-                tellus. Fames ac turpis egestas maecenas pharetra convallis
-                posuere morbi leo. Et ultrices neque ornare aenean euismod
-                elementum nisi quis. Varius morbi enim nunc faucibus a
-                pellentesque sit amet. Vitae proin sagittis nisl rhoncus mattis
-                rhoncus urna. In mollis nunc sed id semper risus in hendrerit
-                gravida.
+              An issue that occurred early in the process was lack of perspective of the two frameworks integrating with each other. Our team had some sense of how data science and the web was going to come together in the product, but we had some confusion on what each side needed from each other. I was able to address this issue when I wanted more clarification on how I can provide the data science members the data they needed, and this sparked a group meeting which broke down everyone’s role and impact for this project. Our ability to communicate effectively when we reached an issue/concern that impacted everyone was what made us such a good team. People were open to express concerns clearly and effective, so we resolved issues as soon as they arose.
               </p>
               <blockquote>
                 <p>
-                  "Design is not a single object or dimension. Design is messy
-                  and complex." - Natasha Jen
+                “There is no better than adversity. Every defeat, every heartbreak, every loss, contains its own seed, its own lesson on how to improve your performance the next time.”– Malcolm X
                 </p>
               </blockquote>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Morbi tincidunt augue interdum velit euismod in. Justo laoreet
-                sit amet cursus sit amet dictum sit. Viverra aliquet eget sit
-                amet. Scelerisque varius morbi enim nunc faucibus a pellentesque
-                sit. Lectus nulla at volutpat diam ut venenatis tellus. Nunc
-                consequat interdum varius sit. Ultrices neque ornare aenean
-                euismod elementum. Ante metus dictum at tempor commodo. Sed
-                vulputate odio ut enim blandit volutpat maecenas volutpat
-                blandit. Etiam non quam lacus suspendisse faucibus interdum
-                posuere lorem.
+              My teammates tend to describe myself as someone who can be  helpful, reliable, and resourceful when it comes to meeting a certain deadline, common goal, or completing a task. I tend to make my teammates' concerns or challenges a top priority at times, and am willing to make sure everyone who is confused or uncertain about something gets clarification or the resources to understand.
+              </p>
+              <br/>
+              <p>
+                ... But that doesnt mean our experiecne was free of challenges or blockers along the way.
+              </p>
+              <br/>
+              <p>
+              An issue that occurred early in the process was lack of perspective of the two frameworks integrating with each other. Our team had some sense of how data science and the web was going to come together in the product, but we had some confusion on what each side needed from each other. I was able to address this issue when I wanted more clarification on how I can provide the data science members the data they needed, and this sparked a group meeting which broke down everyone’s role and impact for this project. Our ability to communicate effectively when we reached an issue/concern that impacted everyone was what made us such a good team. People were open to express concerns clearly and effective, so we resolved issues as soon as they arose.
               </p>
               <p>
-                Aliquet nibh praesent tristique magna sit amet purus. Tincidunt
-                nunc pulvinar sapien et ligula ullamcorper. Lacus sed viverra
-                tellus in. Fringilla phasellus faucibus scelerisque eleifend
-                donec pretium vulputate. Bibendum neque egestas congue quisque
-                egestas diam in. Iaculis nunc sed augue lacus viverra. Sagittis
-                orci a scelerisque purus. Cursus mattis molestie a iaculis at
-                erat pellentesque adipiscing commodo. Vulputate sapien nec
-                sagittis aliquam malesuada bibendum arcu vitae elementum. Arcu
-                dictum varius duis at. Eleifend mi in nulla posuere sollicitudin
-                aliquam ultrices. Velit scelerisque in dictum non consectetur a
-                erat nam at. Cum sociis natoque penatibus et magnis dis
-                parturient montes nascetur. Adipiscing commodo elit at imperdiet
-                dui. Sed tempus urna et pharetra pharetra. Imperdiet sed euismod
-                nisi porta lorem mollis aliquam ut. Ultricies mi eget mauris
-                pharetra et ultrices neque. Et malesuada fames ac turpis egestas
-                sed tempus urna et. At tempor commodo ullamcorper a.
+              Whenever I am in a setting of picking roles or tasks in a team, I tend to organize my priorities while accomplishing that task by importance/impact in contribution to a  team. By doing this, I am able to be a meaningful contributor to a team while also being resourceful for any help or clarification from other team members as well. I also just make sure that I put myself in a position where I can help in a way that isn't delaying my progress, or setting some time aside instead of completely stopping what I’m doing in order to help.
               </p>
             </div>
           </article>
