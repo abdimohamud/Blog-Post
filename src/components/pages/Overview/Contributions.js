@@ -46,12 +46,12 @@ const Contributions = () => {
                 <li>Commits are well named.</li>
                 <li>Commits have descriptive messages.</li>
                 <li>Each commit introduces atomic changes.</li>
-                <br/>
+                <span/>
                 <h5>Code maintainability</h5>
                 <li>Code is consistently formatted.</li>
                 <li>Has config files to enforce linting and formatting.</li>
                 <li>No instance on duplicate code.</li>
-                <br/>
+                <span/>
                 <h5>Adequate reviews</h5>
                 <li>PRs were reviewed by more than one team members.</li>
                 <li>PR requests were sent to multiple reviewers.</li>

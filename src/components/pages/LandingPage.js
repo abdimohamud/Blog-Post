@@ -213,7 +213,7 @@ const LandingPage = () => {
             }}
           >
             <h2 class="block-title line-top">Latest from the Blog</h2>
-            <p class="block-subtitle">An optional subtitle of the section</p>
+            <p class="block-subtitle">Check out my <a href="https://dev.to/abdimohamud" target="_blank">posts</a></p>
           </div>
           <div class="block-content">
             <div class="post-feed grid grid-col-3">

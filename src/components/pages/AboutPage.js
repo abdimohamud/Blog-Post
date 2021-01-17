@@ -1,7 +1,19 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
+import marked from "marked";
 import about from "../../assets/about.jpg";
+import readMe from '../../assets/README.md'
 
 const AboutPage = () => {
+  const [markdown, setMarkdown] = useState(null);
+  useEffect(() => {
+    fetch(readMe)
+      .then(response => {
+        return response.text();
+      })
+      .then(text => {
+        setMarkdown(marked(text));
+      });
+  }, []);
   return (
     <div>
       <main id="content" class="site-content">
@@ -17,7 +29,14 @@ const AboutPage = () => {
               <img src={about} alt="About Us" />
             </div>
             <div class="post-content inner-sm">
-              <p>
+            {markdown ? (
+                <section style={{ border: "1px solid" }}>
+                  <article dangerouslySetInnerHTML={{ __html: markdown }} />
+                </section>
+              ) : (
+                ""
+              )}
+              {/* <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
                 vel venenatis augue. Suspendisse tincidunt, nibh eget sodales
                 eleifend, lectus magna elementum lorem, ut bibendum tellus
@@ -42,7 +61,7 @@ const AboutPage = () => {
               </p>
               <p>
                 <em>Thank You for reading!</em>
-              </p>
+              </p> */}
             </div>
           </article>
         </div>
