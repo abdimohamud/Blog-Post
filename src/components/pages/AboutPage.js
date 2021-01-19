@@ -1,7 +1,7 @@
-import React, {useEffect, useState} from "react";
+import React, { useEffect, useState } from "react";
 import marked from "marked";
 import about from "../../assets/about.jpg";
-import readMe from '../../assets/README.md'
+import readMe from "../../assets/README.md";
 
 const AboutPage = () => {
   const [markdown, setMarkdown] = useState(null);
@@ -29,7 +29,7 @@ const AboutPage = () => {
               <img src={about} alt="About Us" />
             </div>
             <div class="post-content inner-sm">
-            {markdown ? (
+              {markdown ? (
                 <section style={{ border: "1px solid" }}>
                   <article dangerouslySetInnerHTML={{ __html: markdown }} />
                 </section>

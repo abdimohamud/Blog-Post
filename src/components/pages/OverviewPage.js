@@ -7,7 +7,7 @@ import contribute from "../../assets/contribute.jpg";
 import roadmap from "../../assets/roadmap.png";
 import techstack from "../../assets/techstack.png";
 import userflow from "../../assets/userflow.png";
-import paper from '../../assets/paper.png'
+import paper from "../../assets/paper.png";
 const OverviewPage = () => {
   return (
     <>

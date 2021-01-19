@@ -22,7 +22,9 @@ const Contributions = () => {
           <article class="post post-full">
             <header class="post-header inner-sm">
               <h1 class="post-title line-top">Contributions</h1>
-              <div class="post-subtitle">Determining the workflow for our tasks</div>
+              <div class="post-subtitle">
+                Determining the workflow for our tasks
+              </div>
             </header>
             <div class="post-image">
               <img src={roadblock} alt="Contributions" />
@@ -35,30 +37,40 @@ const Contributions = () => {
                 </p>
               </blockquote>
               <p>
-              As a team, it was up to us to decide how we want our workflow to go in completing, reviewing, and pushing our tasks to our main project. We decided to make a Pull request template to follow so that we would be able to explain the task we achieved and include resources or questions and challenges that came up during the process. 
-              {/* your Pull-Requests to look. Your goal for this afternoon is to create an MD file that you share across your team and include in your repositories (DS, WEB-FE, WEB-BE, iOS all need a copy of the template in their respective repository). */}
+                As a team, it was up to us to decide how we want our workflow to
+                go in completing, reviewing, and pushing our tasks to our main
+                project. We decided to make a Pull request template to follow so
+                that we would be able to explain the task we achieved and
+                include resources or questions and challenges that came up
+                during the process.
+                {/* your Pull-Requests to look. Your goal for this afternoon is to create an MD file that you share across your team and include in your repositories (DS, WEB-FE, WEB-BE, iOS all need a copy of the template in their respective repository). */}
               </p>
               <p>
-                The criterias we set up for creating a pull request consisted of standards that most production-level projects followed in the industry which were:
+                The criterias we set up for creating a pull request consisted of
+                standards that most production-level projects followed in the
+                industry which were:
               </p>
               <ul>
                 <h5>Atomic, well-named commits</h5>
                 <li>Commits are well named.</li>
                 <li>Commits have descriptive messages.</li>
                 <li>Each commit introduces atomic changes.</li>
-                <span/>
+                <span />
                 <h5>Code maintainability</h5>
                 <li>Code is consistently formatted.</li>
                 <li>Has config files to enforce linting and formatting.</li>
                 <li>No instance on duplicate code.</li>
-                <span/>
+                <span />
                 <h5>Adequate reviews</h5>
                 <li>PRs were reviewed by more than one team members.</li>
                 <li>PR requests were sent to multiple reviewers.</li>
                 <li>Active high quality discussions evident in PRs.</li>
               </ul>
               <p>
-               We were able to create a template to use for pull requests and included it in our repository for future versions so that they would understand the flow of our contributions throughout the project.
+                We were able to create a template to use for pull requests and
+                included it in our repository for future versions so that they
+                would understand the flow of our contributions throughout the
+                project.
               </p>
               {markdown ? (
                 <section style={{ border: "1px solid" }}>
