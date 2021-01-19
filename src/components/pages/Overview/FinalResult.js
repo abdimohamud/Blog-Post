@@ -24,22 +24,6 @@ const FinalResult = () => {
                 the main challenge of the first week; it was difficult to agree
                 as a team on learning a completely new stack.
               </p>
-              <p>
-                Sed risus pretium quam vulputate dignissim suspendisse in est.
-                Vitae auctor eu augue ut lectus arcu. Tristique magna sit amet
-                purus. Aliquet enim tortor at auctor urna nunc. Id leo in vitae
-                turpis massa sed elementum tempus. Egestas maecenas pharetra
-                convallis posuere morbi leo urna molestie at. Amet consectetur
-                adipiscing elit duis tristique sollicitudin. Egestas sed sed
-                risus pretium quam vulputate. Nunc eget lorem dolor sed viverra
-                ipsum nunc. Consequat mauris nunc congue nisi vitae suscipit
-                tellus. Fames ac turpis egestas maecenas pharetra convallis
-                posuere morbi leo. Et ultrices neque ornare aenean euismod
-                elementum nisi quis. Varius morbi enim nunc faucibus a
-                pellentesque sit amet. Vitae proin sagittis nisl rhoncus mattis
-                rhoncus urna. In mollis nunc sed id semper risus in hendrerit
-                gravida.
-              </p>
               <blockquote>
                 <p>
                   "Design is not a single object or dimension. Design is messy
