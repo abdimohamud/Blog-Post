@@ -31,35 +31,8 @@ const FinalResult = () => {
                 </p>
               </blockquote>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Morbi tincidunt augue interdum velit euismod in. Justo laoreet
-                sit amet cursus sit amet dictum sit. Viverra aliquet eget sit
-                amet. Scelerisque varius morbi enim nunc faucibus a pellentesque
-                sit. Lectus nulla at volutpat diam ut venenatis tellus. Nunc
-                consequat interdum varius sit. Ultrices neque ornare aenean
-                euismod elementum. Ante metus dictum at tempor commodo. Sed
-                vulputate odio ut enim blandit volutpat maecenas volutpat
-                blandit. Etiam non quam lacus suspendisse faucibus interdum
-                posuere lorem.
-              </p>
-              <p>
-                Aliquet nibh praesent tristique magna sit amet purus. Tincidunt
-                nunc pulvinar sapien et ligula ullamcorper. Lacus sed viverra
-                tellus in. Fringilla phasellus faucibus scelerisque eleifend
-                donec pretium vulputate. Bibendum neque egestas congue quisque
-                egestas diam in. Iaculis nunc sed augue lacus viverra. Sagittis
-                orci a scelerisque purus. Cursus mattis molestie a iaculis at
-                erat pellentesque adipiscing commodo. Vulputate sapien nec
-                sagittis aliquam malesuada bibendum arcu vitae elementum. Arcu
-                dictum varius duis at. Eleifend mi in nulla posuere sollicitudin
-                aliquam ultrices. Velit scelerisque in dictum non consectetur a
-                erat nam at. Cum sociis natoque penatibus et magnis dis
-                parturient montes nascetur. Adipiscing commodo elit at imperdiet
-                dui. Sed tempus urna et pharetra pharetra. Imperdiet sed euismod
-                nisi porta lorem mollis aliquam ut. Ultricies mi eget mauris
-                pharetra et ultrices neque. Et malesuada fames ac turpis egestas
-                sed tempus urna et. At tempor commodo ullamcorper a.
+              The second week has been a little easier, though I feel that we’re still tackling the learning curve of the new stack. By the time the third week rolled around, it was clear what our objective was as a team and now was the easiest but time consuming part, bringing it to life with coding. 
+              My main personal challenge overall was just setting time aside to get tasks done and connecting the front-end and back-end together. But overall, I felt like I improved on my work ethic and delivery when it came to accomplishing tasks or components in a timely-fashion and minimal bugs and errors. I'm really happy with the final result and product our group were able to produce, and its really amazing when reflecting back to the ammount of progress and work we achieved.
               </p>
             </div>
             <div class="post-content inner-sm" style={{ textAlign: "center" }}>

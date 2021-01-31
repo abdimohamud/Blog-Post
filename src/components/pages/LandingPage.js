@@ -6,9 +6,9 @@ import roadmap from "../../assets/roadmap.png";
 import techstack from "../../assets/techstack.png";
 import userflow from "../../assets/userflow.png";
 import books from "../../assets/books.jpg";
-import isaiah from "../../assets/isaiah.png";
-import leslie from "../../assets/leslie.png";
-import emily from "../../assets/emily.jpg";
+// import isaiah from "../../assets/isaiah.png";
+// import leslie from "../../assets/leslie.png";
+// import emily from "../../assets/emily.jpg";
 
 const LandingPage = () => {
   return (
@@ -215,7 +215,7 @@ const LandingPage = () => {
             <h2 class="block-title line-top">Latest from the Blog</h2>
             <p class="block-subtitle">
               Check out my{" "}
-              <a href="https://dev.to/abdimohamud" target="_blank">
+              <a href="https://dev.to/abdimohamud" target="_blank" rel="noreferrer">
                 posts
               </a>
             </p>

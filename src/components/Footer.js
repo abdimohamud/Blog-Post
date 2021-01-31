@@ -7,6 +7,15 @@ const Footer = () => {
         <div class="site-footer-inside">
           <div class="site-info" />
           <div class="social-links">
+          <a
+              href="https://abdimohamud.codes"
+              class="button-icon"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span class="icon fab fa-react" aria-hidden="true" />
+              <span class="screen-reader-text">Website</span>
+            </a>
             <a
               href="https://twitter.com/nopocketchange"
               class="button-icon"
