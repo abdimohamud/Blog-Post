@@ -94,7 +94,7 @@ and the following user stories:
 
 # User Flow
 
-![Architecture](https://github.com/Lambda-School-Labs/family-promise-spokane-fe-a/tree/main/src/assets/user-flow.png)
+![Architecture](https://imgur.com/4IaToFR.png)
 
 **If you are having an issue with the existing project code, please submit a bug report under the following guidelines:**
 

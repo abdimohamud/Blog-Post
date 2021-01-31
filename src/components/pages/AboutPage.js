@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import './About.css'
 import marked from "marked";
 import about from "../../assets/about.jpg";
 import readMe from "../../assets/README.md";
@@ -20,17 +21,14 @@ const AboutPage = () => {
         <div class="inner outer">
           <article class="post post-full">
             <header class="post-header inner-sm">
-              <h1 class="post-title line-top">About Us</h1>
-              <div class="post-subtitle">
+              <h1 class="post-title line-top" style={{textAlign:'center'}}>About Us</h1>
+              <div class="post-subtitle" style={{textAlign:'center'}}>
                 This is a short page about us and our work.
               </div>
             </header>
-            <div class="post-image">
-              <img src={about} alt="About Us" />
-            </div>
             <div class="post-content inner-sm">
               {markdown ? (
-                <section style={{ border: "1px solid" }}>
+                <section style={{ border: "1px solid", textAlign:'center' }}>
                   <article dangerouslySetInnerHTML={{ __html: markdown }} />
                 </section>
               ) : (

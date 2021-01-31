@@ -120,7 +120,7 @@ const LandingPage = () => {
           </div>
         </div>
       </section>
-      <section id="testimonials" class="block block-testimonials outer">
+      {/* <section id="testimonials" class="block block-testimonials outer">
         <div class="inner">
           <div
             class="block-header inner-sm"
@@ -200,7 +200,7 @@ const LandingPage = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section id="latest-posts" class="block block-posts outer">
         <div class="inner">
